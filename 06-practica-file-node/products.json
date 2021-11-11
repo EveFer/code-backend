@@ -1,0 +1,56 @@
+[
+  {
+    "title": "Sabritas Sal",
+    "price": 14,
+    "thumbnail": "url",
+    "id": 1
+  },
+  {
+    "title": "Sabritas Flamin",
+    "price": 14,
+    "thumbnail": "url",
+    "id": 2
+  },
+  {
+    "title": "Donas Espolvoriadas",
+    "price": 15,
+    "thumbnail": "url",
+    "id": 3
+  },
+  {
+    "title": "Choco-roles",
+    "price": 16,
+    "thumbnail": "url",
+    "id": 4
+  },
+  {
+    "title": "Donas Espolvoriadas",
+    "price": 15,
+    "thumbnail": "url",
+    "id": 5
+  },
+  {
+    "title": "Donas Espolvoriadas",
+    "price": 15,
+    "thumbnail": "url",
+    "id": 6
+  },
+  {
+    "title": "Donas Espolvoriadas",
+    "price": 15,
+    "thumbnail": "url",
+    "id": 7
+  },
+  {
+    "title": "Donas Espolvoriadas",
+    "price": 15,
+    "thumbnail": "url",
+    "id": 8
+  },
+  {
+    "title": "Donas Espolvoriadas",
+    "price": 15,
+    "thumbnail": "url",
+    "id": 9
+  }
+]
