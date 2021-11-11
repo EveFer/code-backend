@@ -1,0 +1,16 @@
+{
+  "contentStr": "{\n  \"name\": \"05-manejo-archivos\",\n  \"version\": \"1.0.0\",\n  \"description\": \"\",\n  \"main\": \"main.js\",\n  \"scripts\": {\n    \"test\": \"echo \\\"Error: no test specified\\\" && exit 1\"\n  },\n  \"keywords\": [],\n  \"author\": \"\",\n  \"license\": \"ISC\"\n}\n",
+  "content": {
+    "name": "05-manejo-archivos",
+    "version": "1.0.0",
+    "description": "",
+    "main": "main.js",
+    "scripts": {
+      "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC"
+  },
+  "size": 231
+}
