@@ -5,8 +5,6 @@ const server = http.createServer((request, response) => {
     console.log('Someone request page')
 
     let date = new Date()
-    hour = date.getHours()
-
     let format = 'HH:mm:ss'
     let time = moment(date,format)
     console.log(time)
