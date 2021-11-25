@@ -5,11 +5,39 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
   <title>Document</title>
 </head>
 
 <body>
-  <h1>Hols desde mi server</h1>
+  <main>
+    <section>
+      <h2>Formulario de Mascotas</h2>
+      <form action="/api/pets" method="post">
+        <div>
+          <input type="text" name="name" placeholder="Nombre">
+        </div>
+        <div>
+          <input type="text" name="raz" placeholder="Raza">
+        </div>
+        <div>
+          <input type="text" name="age" placeholder="Edad">
+        </div>
+        <input type="submit" value="guardar" />
+      </form>
+    </section>
+
+    <section>
+      <h2>Formulario de Personas</h2>
+      <form action="/api/people" method="post">
+        <input type="text" name="name" placeholder="Nombre">
+        <input type="text" name="lastName" placeholder="Raza">
+        <input type="text" name="age" placeholder="Edad">
+        <input type="submit" value="guardar" />
+      </form>
+    </section>
+
+  </main>
 </body>
 
 </html>

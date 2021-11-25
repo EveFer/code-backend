@@ -1,0 +1,34 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+main {
+  display: flex;
+}
+
+section {
+  width: 50vw;
+}
+
+section form {
+  border: 1px solid #ececec;
+  border-radius: 5px;
+  padding: 16px;
+}
+
+section form input {
+  height: 25px;
+  padding:5px;
+  border-radius: 5px;
+  width: 100%;
+  border: none;
+  margin-bottom: 16px;
+  background-color: #ececec;
+}
+
+section form input[type="submit"] {
+  background-color:skyblue;
+  
+}
