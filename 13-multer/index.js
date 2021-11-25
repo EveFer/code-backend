@@ -5,6 +5,7 @@ const app = express()
 
 app.use(express.urlencoded({extended: true}))
 app.use('/static', express.static(__dirname + '/uploads'))
+app.use(express.static('public'))
 app.use(express.static('uploads'))
 
 const storage = multer.diskStorage({
