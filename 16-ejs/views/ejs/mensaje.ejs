@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <%- include('../partials/head.ejs'); %>
+</head>
+
+<body>
+  <% const estilo="color:red" ; %>
+    <%if (message) { %>
+      <h2 style=<%=estilo %> >
+        <%=message %>
+      </h2>
+      <% } %>
+</body>
+
+</html>
