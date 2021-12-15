@@ -17,7 +17,7 @@ function render(data) {
     data.forEach((message) => {
         messages += `
             <div>
-               [${info.time}]<strong>${message.author}</strong>
+               [${message.time}]<strong>${message.author}</strong>
                 <em>${message.text}</em>
             </div>
         `
