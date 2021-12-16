@@ -1,0 +1,1 @@
+console.log('Esto es otro archivo de js')
