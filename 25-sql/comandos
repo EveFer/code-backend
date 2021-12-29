@@ -1,0 +1,11 @@
+docker run -it --rm mysql mysql -hsome.mysql.host -usome-mysql-user -p
+
+docker exec -it mysql bash
+
+docker run -d --rm --name mysql -e MYSQL_ROOT_PASSWORD=root -p 3306:3306 -v $PWD/data-mysql:/var/lib/mysql mysql:8.0.25
+
+
+root@73edd6ff054a:/# mysql -u root -p
+
+
+create table user (id integer not null AUTO_INCREMENT PRIMARY KEY,name char(50), lastName char(50), age integer);
